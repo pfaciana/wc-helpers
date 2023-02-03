@@ -1,0 +1,29 @@
+{
+	"name": "pfaciana/wc-helpers",
+	"version": "1.0.0",
+	"description": "Additional classes and functions to help with writing code for WooCommerce",
+	"keywords": [],
+	"homepage": "https://renderdev.com/",
+	"license": "GPL-2.0-only",
+	"authors": [
+		{
+			"name": "Phil Faciana",
+			"email": "phil@renderdev.com",
+			"homepage": "https://renderdev.com/",
+			"role": "Developer"
+		}
+	],
+	"autoload": {
+		"classmap": [
+			"includes/"
+		],
+		"files": [
+			"includes/meta-boxes/options/wc-meta-box-functions.php",
+			"includes/meta-boxes/addons/wc-add-on-functions.php",
+			"includes/meta-boxes/variations/wc-variation-functions.php",
+			"includes/post-types/helpers/wc-acf-function.php",
+			"includes/post-types/helpers/wc-product-functions.php",
+			"includes/post-types/helpers/wc-user-functions.php"
+		]
+	}
+}
