@@ -62,7 +62,7 @@ $group->select( [
     'id'          => '_some_options',
     'label'       => 'Select One',
     'options'     => [
-        NULL => '-- Select ---',
+        NULL => '--- Select ---',
         1    => 'Option 1',
         2    => 'Option 2',
         3    => 'Option 3',
